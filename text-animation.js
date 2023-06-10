@@ -423,16 +423,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     setTimeout(function() {
       text38.classList.add("exit");
-    }, 208000);
+    }, 207000);
 
      //text39
      setTimeout(function() {
       text39.classList.add("show");
-    }, 209000);
+    }, 208000);
 
     setTimeout(function() {
       text39.classList.add("exit");
-    }, 21600);
+    }, 216000);
 
 
 
