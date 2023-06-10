@@ -1,0 +1,64 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    max-height: auto;
+    max-height: auto;
+    background-color: #EEEEEE;
+}
+.button >a{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    text-decoration: none;
+    color: black;
+    bottom: 15rem;
+    width: 100%;
+    
+    
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    
+}
+a:hover
+{
+    color: red;
+}
+#main
+{
+    top: 10rem;
+    position: fixed;
+
+}
+.container2
+{
+    display: flex;
+    top: 5rem;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+.letter-container
+{
+    display: flex;
+    top: 20rem;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+#picture
+{
+    display: inline;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.audio-container{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 3%;
+    width: 100%;
+}
