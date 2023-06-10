@@ -28,6 +28,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const text22 = document.getElementById("text22");
     const text23 = document.getElementById("text23");
     const text24 = document.getElementById("text24");
+    const text25 = document.getElementById("text25");
+    const text26 = document.getElementById("text26");
+    const text27 = document.getElementById("text27");
+    const text28 = document.getElementById("text28");
     const music = document.getElementById("play");
   
 
@@ -285,12 +289,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
     //text25
     setTimeout(function() {
-      text24.classList.add("show");
+      text25.classList.add("show");
     }, 133000);
 
     setTimeout(function() {
-      text24.classList.add("exit");
+      text25.classList.add("exit");
     }, 1370000);
+
+     //text26
+     setTimeout(function() {
+      text26.classList.add("show");
+    }, 138000);
+
+    setTimeout(function() {
+      text25.classList.add("exit");
+    }, 1410000);
+    
     
 
   });
