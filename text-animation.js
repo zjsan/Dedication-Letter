@@ -35,6 +35,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const text29 = document.getElementById("text29");
     const text30 = document.getElementById("text30");
     const text31 = document.getElementById("text31");
+    const text32 = document.getElementById("text32");
+    const text33 = document.getElementById("text33");
+    const text34 = document.getElementById("text34");
+    const text35 = document.getElementById("text35");
+    const text36 = document.getElementById("text36");
+    const text37 = document.getElementById("text37");
+    const text38 = document.getElementById("text38");
+    const text39 = document.getElementById("text39");
     const music = document.getElementById("play");
   
 
@@ -340,17 +348,93 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 158000);
 
     setTimeout(function() {
-      text29.classList.add("exit");
+      text30.classList.add("exit");
     }, 162000);
 
     //text31
      setTimeout(function() {
-      text30.classList.add("show");
+      text31.classList.add("show");
     }, 163000);
 
     setTimeout(function() {
-      text29.classList.add("exit");
+      text31.classList.add("exit");
     }, 167000);
+
+    //text32
+    setTimeout(function() {
+      text32.classList.add("show");
+    }, 168000);
+
+    setTimeout(function() {
+      text32.classList.add("exit");
+    }, 175000);
+
+    //text33
+    setTimeout(function() {
+      text33.classList.add("show");
+    }, 176000);
+
+    setTimeout(function() {
+      text33.classList.add("exit");
+    }, 182000);
+
+
+    //text34
+    setTimeout(function() {
+      text34.classList.add("show");
+    }, 183000);
+
+    setTimeout(function() {
+      text34.classList.add("exit");
+    }, 187000);
+
+    
+    //text35
+    setTimeout(function() {
+      text35.classList.add("show");
+    }, 188000);
+
+    setTimeout(function() {
+      text35.classList.add("exit");
+    }, 192000);
+
+     //text36
+     setTimeout(function() {
+      text36.classList.add("show");
+    }, 193000);
+
+    setTimeout(function() {
+      text36.classList.add("exit");
+    }, 197000);
+
+    //text37
+    setTimeout(function() {
+      text37.classList.add("show");
+    }, 198000);
+
+    setTimeout(function() {
+      text37.classList.add("exit");
+    }, 203000);
+
+     //text38
+     setTimeout(function() {
+      text38.classList.add("show");
+    }, 204000);
+
+    setTimeout(function() {
+      text38.classList.add("exit");
+    }, 208000);
+
+     //text39
+     setTimeout(function() {
+      text39.classList.add("show");
+    }, 209000);
+
+    setTimeout(function() {
+      text39.classList.add("exit");
+    }, 21600);
+
+
 
   });
 
