@@ -73,13 +73,13 @@ p{
     border-radius: 100px;
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 301px) {
     div.letter-container{
       font-size: 20px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     div.letter-container{
       font-size: 13px;
     }
