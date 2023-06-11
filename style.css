@@ -78,7 +78,7 @@ a:hover
 
 @media screen and (max-width: 400px) {
     div.letter-container{
-      font-size: 16px;
+      font-size: 14px;
     }
 }
 .audio-container{
