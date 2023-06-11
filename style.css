@@ -62,6 +62,9 @@ a:hover
     position: fixed;
     width: 100%;
 }
+p{
+    font-family: 'Raleway';
+}
 #picture
 {
     display: inline;
