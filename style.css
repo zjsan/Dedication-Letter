@@ -70,13 +70,13 @@ a:hover
     border-radius: 100px;
 }
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 401px) {
     div.letter-container{
       font-size: 21px;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     div.letter-container{
       font-size: 16px;
     }
