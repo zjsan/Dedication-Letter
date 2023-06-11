@@ -1,6 +1,8 @@
 // Wait for the page to load
 document.addEventListener("DOMContentLoaded", function() {
     // Get the elements
+    const music = document.getElementById("play");
+    const picture = document.getElementById("picture");
     const intro1 = document.getElementById("intro1");
     const intro2 = document.getElementById("intro2");
     const intro3 = document.getElementById("intro3");
@@ -43,8 +45,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const text37 = document.getElementById("text37");
     const text38 = document.getElementById("text38");
     const text39 = document.getElementById("text39");
-    const music = document.getElementById("play");
-  
+    const text40= document.getElementById("text40");
+    const again = document.getElementById("again");
+
+
 
     // Play the background music
     music.play();
@@ -52,6 +56,12 @@ document.addEventListener("DOMContentLoaded", function() {
     music.addEventListener("playing", function()
   {
     
+     //picture
+    setTimeout(function() {
+      picture.classList.add("show");
+    }, 1000);
+
+   
     //6 seconds interval in the main text
     //intro1
     setTimeout(function() {
@@ -88,21 +98,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
     setTimeout(function() {
       text1.classList.add("exit");
-    }, 19000);
+    }, 16000);
 
     //text2
     setTimeout(function() {
       text2.classList.add("show");
-    }, 20000);
+    }, 17000);
 
     setTimeout(function() {
       text2.classList.add("exit");
-    }, 26000);
+    }, 24000);
 
     //text3
     setTimeout(function() {
       text3.classList.add("show");
-    }, 27000);
+    }, 26000);
 
     setTimeout(function() {
       text3.classList.add("exit");
@@ -414,29 +424,36 @@ document.addEventListener("DOMContentLoaded", function() {
 
     setTimeout(function() {
       text37.classList.add("exit");
-    }, 203000);
+    }, 202000);
 
      //text38
      setTimeout(function() {
       text38.classList.add("show");
-    }, 204000);
+    }, 203000);
 
     setTimeout(function() {
       text38.classList.add("exit");
-    }, 207000);
+    }, 205000);
 
      //text39
      setTimeout(function() {
       text39.classList.add("show");
-    }, 208000);
+    }, 206000);
 
     setTimeout(function() {
       text39.classList.add("exit");
-    }, 216000);
+    }, 210000);
 
-
+    //text40
+    setTimeout(function() {
+      text40.classList.add("show");
+    }, 211000);
 
   });
 
+  // Add the "show" class to the last paragraph after the fade-in animation is completed
+    text39.addEventListener("animationend", function() {
+    lastParagraph.classList.add("show");
+    });
 
 }); 
