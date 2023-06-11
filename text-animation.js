@@ -1,5 +1,5 @@
 // Wait for the page to load
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("DOMContentLoaded", function() {
     // Get the elements
     const music = document.getElementById("play");
     const picture = document.getElementById("picture");
@@ -46,12 +46,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const text38 = document.getElementById("text38");
     const text39 = document.getElementById("text39");
     const text40= document.getElementById("text40");
-    const again = document.getElementById("again");
 
 
 
     // Play the background music
     music.play();
+
     // Add a class to the first paragraph after a delay
     music.addEventListener("playing", function()
   {
