@@ -11,3 +11,20 @@
 .fade-in.exit{
     opacity: 0;
 }
+
+.last-paragraph {
+  opacity: 0;
+}
+
+.last-paragraph.show {
+  opacity: 1;
+}
+
+#picture {
+  opacity: 0;
+  transition: opacity 1s; 
+}
+
+#picture.show {
+  opacity: 1;
+}
