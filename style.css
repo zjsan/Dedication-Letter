@@ -46,6 +46,7 @@ a:hover
     position: fixed;
 
 }
+
 .container2
 {
     display: flex;
@@ -54,6 +55,7 @@ a:hover
     position: fixed;
     width: 100%;
 }
+
 .letter-container
 {
     display: flex;
@@ -62,9 +64,11 @@ a:hover
     position: fixed;
     width: 100%;
 }
+
 p{
     font-family: 'Raleway';
 }
+
 #picture
 {
     display: inline;
