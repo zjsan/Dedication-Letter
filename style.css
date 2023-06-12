@@ -81,7 +81,7 @@ p{
 
 @media screen and (max-width: 750px) {
     div.letter-container{
-      font-size: 13px;
+      font-size: 12px;
     }
 }
 .audio-container{
